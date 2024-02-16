@@ -1,0 +1,51 @@
+/* General body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Image styling */
+img {
+  max-width: 100%; /* Make sure images are not wider than their container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any inline behaviors */
+  margin: 0 auto; /* Center images horizontally */
+  padding: 20px 0; /* Add some space around the image */
+}
+
+/* Ensure content is flexibly centered */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh; /* Use viewport height to push the footer down */
+}
+
+/* Specific adjustments for the youtube_meme component, if needed */
+.YoutubeMeme {
+  max-width: 60%; /* Adjust based on your preference */
+  margin: 20px auto; /* Center the component and add vertical spacing */
+}
