@@ -1,11 +1,10 @@
-import Header from "../Header.jsx";
-import Footer from "../Footer";
+
 
 function HomePage(){
 
     return(
         <>
-            <Header></Header>
+            
             <h2>Welcome to the SB soundsssss website. Choose a category you like and click the pic for play the sound. Have fun!</h2>
 
             <hr></hr>
