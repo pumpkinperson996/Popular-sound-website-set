@@ -5,7 +5,7 @@ function Header(){
 
     return(
         <header>
-             <h1>Play SB sounds in a poplular</h1>
+             <h1>Play SB sounds you like</h1>
              
         </header>
     );

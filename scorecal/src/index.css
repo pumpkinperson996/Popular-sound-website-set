@@ -5,7 +5,33 @@ body {
   padding: 0;
   background-color: #f4f4f4;
   color: #333;
+  height: 100%;
+  margin: 0;
+  
 }
+
+
+
+
+/* Footer styling */
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px; /* Adjust the height as needed */
+  background-color: #333; /* Footer background color */
+  color: #fff; /* Footer text color */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
 
 /* Header styling */
 header {
@@ -13,17 +39,6 @@ header {
   color: #ffffff;
   padding: 20px 0;
   text-align: center;
-}
-
-/* Footer styling */
-footer {
-  background-color: #333;
-  color: #ffffff;
-  text-align: center;
-  padding: 10px 0;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
 /* Image styling */
@@ -42,10 +57,43 @@ img {
   align-items: center;
   justify-content: center;
   min-height: 90vh; /* Use viewport height to push the footer down */
+  padding-bottom: 60px; /* Same as footer height */
 }
 
 /* Specific adjustments for the youtube_meme component, if needed */
 .YoutubeMeme {
   max-width: 60%; /* Adjust based on your preference */
   margin: 20px auto; /* Center the component and add vertical spacing */
+}
+
+
+
+.card{
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 400px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .card-image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+.card .card-title{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: hsl(0, 0%, 20%);
+}
+.card .card-text{
+  font-family: Arial, sans-serif;
+  color: hsl(0, 0%, 30%);
 }

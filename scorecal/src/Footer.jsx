@@ -1,7 +1,8 @@
 function Footer(){
 
     return(
-        <footer>
+        <footer className="footer-container">
+
             <p>&copy; {new Date().getFullYear()} woshishabi</p>
         </footer>
     );

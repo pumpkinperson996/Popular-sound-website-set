@@ -4,7 +4,7 @@ import NavBar from './NavBar'; // Import the NavBar component
 import Header from "./Header";
 import Footer from "./Footer";
 import HomePage from "./pages/HomePage";
-import YoutubeMeme from "./youtube_meme";
+import YoutubeMeme from "./pages/youtube_meme";
 
 function App() {
   return (
