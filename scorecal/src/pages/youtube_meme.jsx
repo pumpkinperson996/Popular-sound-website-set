@@ -24,7 +24,7 @@ function YoutubeMeme() {
     
 
     return (
-        <div>
+        <div className="cards-container">
           <SoundCard
             title="Metal Drop"
             imageSrc={metaltube}
@@ -33,7 +33,7 @@ function YoutubeMeme() {
           {/* Add more SoundCard components with different props as needed */}
 
           <SoundCard
-            title="AUGGGGGGGGGG"
+            title="AUGGG"
             imageSrc={augpic}
             soundSrc={augaud}
           />

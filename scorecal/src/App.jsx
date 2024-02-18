@@ -5,6 +5,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import HomePage from "./pages/HomePage";
 import YoutubeMeme from "./pages/youtube_meme";
+import Heishou from './pages/heishou';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} exact />
         <Route path="/youtube-oil" element={<YoutubeMeme />} />
+        <Route path="/black-hand-brother" element={<Heishou />} />
+
         {/* Replace component={...} with element={<... />} */}
       </Routes>
       <Footer />
