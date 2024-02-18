@@ -9,6 +9,18 @@ body {
   margin: 0;
   
 }
+.homePageTitle {
+  color: blue;
+  text-align: center;
+  width: 800px;
+  margin: auto;
+}
+
+.homePageSubTitle {
+  color: green;
+  width: 800px;
+  margin: auto;
+}
 
 
 
