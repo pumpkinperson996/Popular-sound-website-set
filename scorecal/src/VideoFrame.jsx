@@ -2,8 +2,10 @@ import React, { useState, useEffect } from 'react';
 
 // Step 1: Define your list of videos
 const videos = [
-  { bvid: "BV1SN411z7i6" },
-  { bvid: "BV1G94y1r7k4" },
+  { bvid: "BV1A24y1y7gF" },
+  { bvid: "BV1oV411Q7tm" },
+  { bvid: "BV1t14y1p7K5" },
+  { bvid: "BV1Qa411y7Dz" },
 
   // Add more videos as needed
 ];
