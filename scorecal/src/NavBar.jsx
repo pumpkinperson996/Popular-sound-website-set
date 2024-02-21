@@ -15,6 +15,9 @@ function NavBar() {
         <li style={{ display: 'inline', marginRight: '20px' }}>
           <Link to="/black-hand-brother">Black Hand Brother</Link>
         </li>
+        <li style={{ display: 'inline', marginRight: '20px' }}>
+          <Link to="/VanMusic">VanMusic</Link>
+        </li>
       </ul>
     </nav>
   );
